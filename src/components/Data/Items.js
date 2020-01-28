@@ -18,6 +18,11 @@ const items = [
         upc: 4,
         url: '',
         info: 'Vitamin D'
+    },
+    {   
+        upc: 5,
+        url: '',
+        info: 'Vitamin E'
     }
 ]
 
