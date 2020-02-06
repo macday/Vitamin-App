@@ -2,7 +2,7 @@
   --bright-green: #00ffba;
   --lime: #c9f52e;
   --dull-gray: #707070;
-  /* white-space: nowrap; */
+
   display: inline-block;
   background-color: var(--bright-green);
   color: #fff;

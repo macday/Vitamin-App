@@ -6,11 +6,16 @@
 }
 
 .Landing {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
 .about-content {
   height: 100%;
-  background: linear-gradient(155deg, var(--lime), var(--bright-green), var(--dark-green))
+  background: linear-gradient(
+    155deg,
+    var(--lime),
+    var(--bright-green),
+    var(--dark-green)
+  );
 }
