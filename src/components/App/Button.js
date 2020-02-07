@@ -11,7 +11,7 @@ export default class Button extends React.Component {
             <div className='Button mx-3 my-1 rounded-pill'>
                 <button 
                     type='button' 
-                    className='btn btn-lg text-nowrap px-5 mx-3'
+                    className='btn btn-lg text-nowrap px-4'
                     onClick={() => this.props.onClick()} >
                         {this.props.id}
                 </button>

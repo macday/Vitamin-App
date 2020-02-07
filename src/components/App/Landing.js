@@ -19,42 +19,53 @@ export default class Landing extends React.Component {
 
     render() {
         return (
-            <div className="Landing">
+            <div className="Landing vw-100">
                 <div className='navbar sticky-top bg-dark d-flex flex-row flex-nowrap'>
                     <div className='nav-item float-lg-left'>
                         <Navbar />
                     </div>
                     <div
-                        className="nav-item display-block float-lg-right d-flex flex-wrap justify-content-center align-content-end">
+                        className="nav-item display-block float-lg-right d-flex flex-nowrap justify-content-center align-content-end">
                         <Button id='Sign up' onClick={() => this.handleClick('signup')} />
                         <Button id='Login' onClick={() => this.handleClick('login')} />
                     </div>
                 </div>
-                <div className='container-fluid about-content p-5 min-vh-100'>
-                    <div className='container-lg m-auto'>
-                        <div className='row h-100'>
-                            <div className='col bg-success h-75 my-auto p-5'>
-                                <h1>Tile 1</h1>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quo consectetur provident molestiae soluta nisi sit illo id, eius nesciunt inventore. Ullam voluptatem nostrum culpa eius neque facilis, dicta esse officiis pariatur asperiores distinctio deserunt modi recusandae eligendi. Quasi temporibus molestias natus rem consectetur eius nobis, dolorem nemo ad incidunt cum veritatis odio reprehenderit illum. Suscipit temporibus mollitia libero ea praesentium minus quam doloremque possimus est ipsa fugiat laboriosam nesciunt explicabo nihil ducimus corporis, doloribus eum voluptates sapiente neque sunt at soluta adipisci? Modi qui possimus pariatur dignissimos animi quos ipsam explicabo sint ut? Corrupti cumque aperiam ad culpa eveniet.
+                <div className='container p-5 vh-100 d-flex flex-lg-row flex-column-reverse' style={{ paddingTop: 30 }}>
+
+                    <div className='container-sm h-75 p-3'>
+                        <h3 className='text-uppercase text-center'>Welcome! Enter your login below.</h3>
+                        <div className='container w-100 h-75 m-auto p-3 border border-darken-1 rounded-lg'>
+                            <span class="input-group-text" id="basic-addon1">@user</span>
+                            <div className='container p-3'>
+                                <label className='p-0'>Password</label><br />
+                                <input type='text' placeholder='jdoe' />
                             </div>
-                            <div className='col-9 bg-info d-flex flex-row'>
-                                <div className='row'>
-                                    <div className='col-6 bg-danger h-75 my-auto p-4 h-auto'>
-                                        <h1>Tile 2</h1>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quo consectetur provident molestiae soluta nisi sit illo id, eius nesciunt inventore. Ullam voluptatem nostrum culpa eius neque facilis, dicta esse officiis pariatur asperiores distinctio deserunt modi recusandae eligendi. Quasi temporibus molestias natus rem consectetur eius nobis, dolorem nemo ad incidunt cum veritatis odio reprehenderit illum. Suscipit temporibus mollitia libero ea praesentium minus quam doloremque possimus est ipsa fugiat laboriosam nesciunt explicabo nihil ducimus corporis, doloribus eum voluptates sapiente neque sunt at soluta adipisci? Modi qui possimus pariatur dignissimos animi quos ipsam explicabo sint ut? Corrupti cumque aperiam ad culpa eveniet.
-                                    </div>
-                                    <div className='col p-3 mx-3'>
-                                        <div className='row p-3'>
-                                            <h1>Tile 3</h1>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quo consectetur provident molestiae soluta nisi sit illo id, eius nesciunt inventore. Ullam voluptatem nostrum culpa eius neque facilis, dicta esse officiis pariatur asperiores distinctio deserunt modi recusandae eligendi. Quasi temporibus molestias natus rem consectetur eius nobis, dolorem nemo ad incidunt cum veritatis odio reprehenderit illum. Suscipit temporibus mollitia libero ea praesentium minus quam doloremque possimus est ipsa fugiat laboriosam nesciunt explicabo nihil ducimus corporis, doloribus eum voluptates sapiente neque sunt at soluta adipisci? Modi qui possimus pariatur dignissimos animi quos ipsam explicabo sint ut? Corrupti cumque aperiam ad culpa eveniet.
-                                        </div>
-                                        <div className='row bg-success p-3'>
-                                            <h1>Tile 4</h1>
-                                            <p>
-                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quo consectetur provident molestiae soluta nisi sit illo id, eius nesciunt inventore. Ullam voluptatem nostrum culpa eius neque facilis, dicta esse officiis pariatur asperiores distinctio deserunt modi recusandae eligendi. Quasi temporibus molestias natus rem consectetur eius nobis, dolorem nemo ad incidunt cum veritatis odio reprehenderit illum. Suscipit temporibus mollitia libero ea praesentium minus quam doloremque possimus est ipsa fugiat laboriosam nesciunt explicabo nihil ducimus corporis, doloribus eum voluptates sapiente neque sunt at soluta adipisci? Modi qui possimus pariatur dignissimos animi quos ipsam explicabo sint ut? Corrupti cumque aperiam ad culpa eveniet.
-                                        </p>
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
+
+                    <div className='container-sm'>
+                        <div className='row'>
+                            <div className='col d-flex justify-content-center'>
+                                <div className='circle responsive-circle-lg'>
+                                    <p className='align-bottom'>
+                                        Bubble 1
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='row p-0'>
+                            <div className='col p-0 d-flex justify-content-end align-top'>
+                                <div className='circle responsive-circle-sm'>
+                                    <p className='align-bottom'>
+                                        Bubble 2
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='col p-0 float-left'>
+                                <div className='circle responsive-circle-md'>
+                                    <p className='align-bottom'>
+                                        Bubble 3
+                                </p>
                                 </div>
                             </div>
                         </div>
