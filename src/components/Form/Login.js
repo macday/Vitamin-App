@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Button from '../App/Button';
 
 export class Login extends Component {
