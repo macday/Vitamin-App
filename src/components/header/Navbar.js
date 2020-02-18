@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
-import '../styles/Navbar.css';
 
 export class Navbar extends Component {
     changePosStatic = y => {

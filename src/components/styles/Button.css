@@ -1,9 +1,0 @@
-.Button {
-  --bright-green: #00ffba;
-  --lime: #c9f52e;
-  --dull-gray: #707070;
-
-  display: inline-block;
-  background-color: var(--bright-green);
-  color: #fff;
-}

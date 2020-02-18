@@ -1,5 +1,4 @@
 import React from 'react'
-import './../styles/Button.css'
 
 export default class Button extends React.Component {
     constructor(props) {
@@ -8,11 +7,11 @@ export default class Button extends React.Component {
 
     render() {
         return (
-            <div className='Button mx-3 my-1 rounded-pill'>
+            <div className='rounded-pill bg-primary mx-3'>
                 <button 
                     type='button' 
-                    className='btn btn-lg text-nowrap px-4'
-                    onClick={() => this.props.onClick()} >
+                    className='btn btn-lg text-nowrap px-5 text-center'
+                    onClick={() => this.props.onClick(this.props.id)} >
                         {this.props.id}
                 </button>
             </div>
