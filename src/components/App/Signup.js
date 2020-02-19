@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Button from './Button'
-
+import NavBar from '../header/Navbar'
 export default class Signup extends Component {
     render() {
         return (
@@ -9,6 +9,9 @@ export default class Signup extends Component {
                     <Button id='Login' onClick={this.handleClick} />
                 </nav> */}
                 <body className='container-lg'>
+
+                    <NavBar />
+
                     <h2 className='font-weight-bold text-center py-2'>
                         Register
                     </h2>
@@ -16,60 +19,64 @@ export default class Signup extends Component {
                         <div className='container-fluid'>
                             <div className='container'>
                                 <div className="form-group">
-                                    <label for="userFirstName">First Name</label>
+                                    <label htmlFor="userFirstName">First Name</label>
                                     <input type="text" className="form-control" id="userFirstName" />
                                 </div>
                                 <div className="form-group">
-                                    <label for="userLastName">Last Name</label>
+                                    <label htmlFor="userLastName">Last Name</label>
                                     <input type="text" className="form-control" id="userLastName" />
                                 </div>
                                 <div className="form-group">
-                                    <label for="userEmail">Email address</label>
+                                    <label htmlFor="userEmail">Email address</label>
                                     <input type="email" className="form-control" id="userEmail" />
                                 </div>
                                 <div className="form-group">
-                                    <label for="userPassword">Password</label>
+                                    <label htmlFor="userPassword">Password</label>
                                     <input type="password" className="form-control" id="userPassword" />
                                 </div>
                                 <div className="form-group">
-                                    <label for="userPassword">Confirm Password</label>
+                                    <label htmlFor="userPassword">Confirm Password</label>
                                     <input type="password" className="form-control" id="userPasswordConfirm" />
                                 </div>
                             </div>
                             <div className='container'>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="radioGroup" id="male" value="option1" checked />
-                                    <label class="form-check-label" for="exampleRadios1">
+                                <div className="form-check">
+                                    <input className="form-check-input" type="radio" name="radioGroup" id="male" value="option1" checked />
+                                    <label className="form-check-label" htmlFor="exampleRadios1">
                                         Male
                                 </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="radioGroup" id="female" value="option2" />
-                                    <label class="form-check-label" for="exampleRadios2">
+                                <div className="form-check">
+                                    <input className="form-check-input" type="radio" name="radioGroup" id="female" value="option2" />
+                                    <label className="form-check-label" htmlFor="exampleRadios2">
                                         Female
                                 </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="radioGroup" id="neither" value="option3" />
-                                    <label class="form-check-label" for="exampleRadios3">
+                                <div className="form-check">
+                                    <input className="form-check-input" type="radio" name="radioGroup" id="neither" value="option3" />
+                                    <label className="form-check-label" htmlFor="exampleRadios3">
                                         Prefer Not to Say
                                 </label>
                                 </div>
                                 <div className="form-group">
-                                    <label for="userAddress">Address</label>
+                                    <label htmlFor="userAddress">Address</label>
                                     <input type="text" className="form-control" id="userAddress" />
                                 </div>
                                 <div className="form-group">
-                                    <label for="userCity">City</label>
+                                    <label htmlFor="userCity">City</label>
                                     <input type="text" className="form-control" id="userCity" />
                                 </div>
                                 <div className="form-group">
-                                    <label for="userPostalCode">Postal Code</label>
+                                    <label htmlFor="userPostalCode">Postal Code</label>
                                     <input type="text" className="form-control" id="userPostalCode" />
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div className="form-row text-center">
+                            <div className="col-12">
+                                <button type="submit" className="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
                     </form>
                 </body>
             </div>
