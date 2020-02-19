@@ -40,7 +40,7 @@ export class Navbar extends Component {
                 <div id = "navbar-slide" value = "closed">
                     
                     <div className = "item"><i class="fas fa-home"></i></div>
-                    <div className = "item"></div>
+                    <div className = "item">n</div>
                     <div className = "item">Jo</div>
                     <div className = "item">Jo</div>
                     <div className = "item">Jo</div>
