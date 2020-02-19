@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
+import './Navbar.css';
 
 export class Navbar extends Component {
     changePosStatic = y => {
@@ -36,7 +37,7 @@ export class Navbar extends Component {
                 <div
                     id="top-menu-icon"
                     onClick={() => this.expand()} >
-                        <div className="item-main-icon">Vitamin</div>
+                        <div className="item-main-icon"><i class="fas fa-bars"></i></div>
                 </div>
 
                 <div id="navbar-slide" value="closed">

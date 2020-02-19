@@ -1,0 +1,36 @@
+  #top-menu-icon{
+      width:60px;
+    height:60px;
+    background-color:#00FFBA;
+    border-radius:30px 30px 30px 30px;
+      position:absolute;
+      color:white;
+      line-height:60px;
+      text-align:center;
+      z-index:2;
+  }
+  #navbar-slide{
+    width:60px;
+    height:60px;
+    background-color:#00B584;
+    border-radius:30px 30px 30px 30px;
+    transition: 1s;
+      line-height:60px;
+      text-align:center;
+      z-index:2;
+  }
+  
+  .item{
+      display:inline;
+      position: absolute;
+      z-index:0;
+  }
+  .item-main-icon{
+      display:inline;
+  }
+
+  .Nav-bar-pos{
+    position: fixed;
+    top:5%;
+    left:5%;
+  }
