@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import Button from './Button'
+import FadeIn from 'react-fade-in'
 export class Dashboard extends Component {
     render() {
         return (
+            <FadeIn>
             <div className="container-fluid">
                 <br/>
                 <div className = "container border p-5">
@@ -29,7 +31,10 @@ export class Dashboard extends Component {
                                 <li class="list-group-item">Health 5</li>
                             </ul>
                             <br/>
-                            <Button id= "More details" />
+                            <div className='container-fluid d-flex justify-content-center p-0 m-0'>
+                                <Button id= "More details" />
+                            </div>
+                            
                         </div>
                         <div className = "container border col p-4">
                             <h3>New record</h3>
@@ -42,7 +47,10 @@ export class Dashboard extends Component {
                                 <li class="list-group-item">Health 5</li>
                             </ul>
                             <br/>
-                            <Button id= "Create new record" />
+                            <div className='container-fluid d-flex justify-content-center p-0 m-0'>
+                                <Button id= "Create new record" />
+                            </div>
+                            
                         </div>
                     </div> 
                     <br/>
@@ -64,6 +72,7 @@ export class Dashboard extends Component {
                 </div>
                 
             </div>
+            </FadeIn>
         )
     }
 }

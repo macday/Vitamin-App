@@ -1,8 +1,9 @@
 import React from 'react'
 import Bear from '../../images/bear.jpg'
+import FadeIn from 'react-fade-in'
 export default function AboutUs() {
     return (
-        
+        <FadeIn>
         <div className="container">
             <div className = "container">
                 
@@ -53,5 +54,6 @@ export default function AboutUs() {
             </div>
             
         </div>
+        </FadeIn>
     )
 }

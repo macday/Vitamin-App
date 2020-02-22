@@ -1,8 +1,10 @@
 import React from 'react'
 import Button from './Button'
+import FadeIn from 'react-fade-in'
 
 export default function Signup(props) {
     return (
+        <FadeIn>
         <div className='signup p-3' >
             {/* <nav className='navbar navbar-light justify-content-end'>
                     <Button id='Login' onClick={this.handleClick} />
@@ -74,5 +76,6 @@ export default function Signup(props) {
                 </form>
             </body>
         </div>
+        </FadeIn>
     )
 }
