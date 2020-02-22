@@ -8,15 +8,15 @@ import Navbar from './../header/Navbar'
 import Landing from './Landing'
 import Signup from './Signup'
 import Login from './Login'
-import About-Us from './About-Us'
-
+import AboutUs from './AboutUs'
+import Dashboard from './Dashboard'
 export default class App extends React.Component {
-    // constructor(props) {
-    //     super(props)
-    //     this.state = {
+     constructor(props) {
+         super(props)
+         this.state = {
 
-    //     }
-    // }
+         }
+     }
 
     handleClick(elemID) {
         alert(`${elemID} clicked`)
@@ -39,7 +39,13 @@ export default class App extends React.Component {
                                 <Login />
                             </Route>
                             <Route path='/Learn More!'>
-                                <About-Us />
+                                <AboutUs />
+                            </Route>
+                            <Route path='/Dashboard'>
+                                <Dashboard />
+                            </Route>
+                            <Route path='/AboutUs'>
+                                <AboutUs />
                             </Route>
                         </Switch>
                     </div>

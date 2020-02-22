@@ -55,6 +55,16 @@ export class Navbar extends Component {
                                     <a class='nav-link'>Login</a>
                                 </Link>
                             </li>
+                            <li class="nav-item">
+                                <Link to='/Dashboard'>
+                                    <a class='nav-link'>Dashboard</a>
+                                </Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/AboutUs'>
+                                    <a class='nav-link'>About Us</a>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>
