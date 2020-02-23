@@ -6,6 +6,7 @@ The UI/UX is primarily Twitter Bootstrap with some extra detailing.
 
 ### Note:
 You must install the routing package in order for the page to load. Please run `npm install react-router-dom` to install the dependencies.
+You must install the fade-in packages as well. Please run `npm install react-fade-in` to install the dependencies.
 
 In the project directory, you can run:
 

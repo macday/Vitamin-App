@@ -7,8 +7,8 @@ export default function Landing() {
         <FadeIn>
             <div className='landing'>
                 <div>
-                    <body className='container-fluid d-flex flex-sm-col flex-md-row'>
-                        <div class="jumbotron my-3 mx-auto">
+                    <body className='container-fluid d-flex flex-column flex-nowrap'>
+                        <div class="container-fluid jumbotron my-3 mx-auto">
                             <h1 class="display-4">App Name</h1>
                             <p class="lead">
                                 Login or Signup to find out more about which vitamins you may need!
@@ -16,6 +16,9 @@ export default function Landing() {
                             <div className='container-fluid d-flex justify-content-start p-0 m-0'>
                                 <Button id='Learn More!' />
                             </div>
+                        </div>
+                        <div className='container-fluid'>
+                            container
                         </div>
                     </body>
                 </div>
